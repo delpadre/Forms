@@ -133,7 +133,8 @@ dynamic-forms/
 
 ## 🖼️ Prints da Aplicação
 
-> Adicione prints do app aqui após rodar o projeto.
+<img width="372" height="792" alt="image" src="https://github.com/user-attachments/assets/96f0a231-e7d6-44d7-aa03-76a78db9f59e" />
+
 
 ---
 
