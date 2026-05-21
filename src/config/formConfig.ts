@@ -1,0 +1,96 @@
+import { FormConfig } from '../types/form';
+
+export const formConfig: FormConfig = {
+  title: 'Cadastro de Usuário',
+  fields: [
+    {
+      id: 'name',
+      label: 'Nome completo',
+      type: 'text',
+      required: true,
+      placeholder: 'Digite seu nome',
+    },
+    {
+      id: 'email',
+      label: 'E-mail',
+      type: 'email',
+      required: true,
+      placeholder: 'seuemail@exemplo.com',
+    },
+    {
+      id: 'password',
+      label: 'Senha',
+      type: 'password',
+      required: true,
+      placeholder: 'Mínimo 6 caracteres',
+    },
+    {
+      id: 'age',
+      label: 'Idade',
+      type: 'number',
+      required: true,
+      placeholder: 'Digite sua idade',
+    },
+    {
+      id: 'bio',
+      label: 'Biografia',
+      type: 'multiline',
+      required: false,
+      placeholder: 'Conte um pouco sobre você...',
+    },
+    {
+      id: 'gender',
+      label: 'Gênero',
+      type: 'radio',
+      required: true,
+      options: [
+        { label: 'Masculino', value: 'male' },
+        { label: 'Feminino', value: 'female' },
+        { label: 'Outro', value: 'other' },
+      ],
+    },
+    {
+      id: 'state',
+      label: 'Estado',
+      type: 'select',
+      required: true,
+      options: [
+        { label: 'São Paulo', value: 'SP' },
+        { label: 'Rio de Janeiro', value: 'RJ' },
+        { label: 'Minas Gerais', value: 'MG' },
+        { label: 'Bahia', value: 'BA' },
+        { label: 'Rio Grande do Sul', value: 'RS' },
+        { label: 'Paraná', value: 'PR' },
+        { label: 'Santa Catarina', value: 'SC' },
+        { label: 'Ceará', value: 'CE' },
+        { label: 'Pernambuco', value: 'PE' },
+        { label: 'Goiás', value: 'GO' },
+      ],
+    },
+    {
+      id: 'interests',
+      label: 'Interesses',
+      type: 'checkbox',
+      required: false,
+      options: [
+        { label: 'Tecnologia', value: 'tech' },
+        { label: 'Esportes', value: 'sports' },
+        { label: 'Música', value: 'music' },
+        { label: 'Leitura', value: 'reading' },
+        { label: 'Viagens', value: 'travel' },
+      ],
+    },
+    {
+      id: 'notifications',
+      label: 'Receber notificações',
+      type: 'switch',
+      required: false,
+    },
+    {
+      id: 'birthDate',
+      label: 'Data de nascimento',
+      type: 'date',
+      required: true,
+    },
+  ],
+};
