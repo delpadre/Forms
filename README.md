@@ -38,8 +38,8 @@ e exibe um resumo completo após o envio.
 ### Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/dynamic-forms.git
-cd dynamic-forms
+git clone https://github.com/delpadre/dynamic-forms.git
+cd na pasta
 npm install
 ```
 
